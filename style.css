@@ -1,0 +1,312 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #ffd4e3;
+}
+
+header {
+    height: 100px;
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    z-index: 2;
+}
+
+#slider_fundo {
+    width: 100%;
+    height: 690px;
+}
+
+header .he {
+    margin: auto;
+    height: 100px;
+    width: 100%;
+}
+
+header .logo {
+    width: 130px;
+    height: 130px;
+    margin-left: 710px;
+    z-index: 20;
+    margin-top: -80px;
+}
+
+.content {
+    height: 700px;
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 51%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-bottom: 111px
+}
+
+.navigation {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    padding-bottom: 110px;
+    clear: left;
+}
+
+.bar1 {
+    width: 70px;
+    height: 17px;
+    border: 2px solid #ffffff;
+    margin: 6px;
+    cursor: pointer;
+    transition: .5s;
+    border-radius: 10px;
+}
+
+.bar1:hover {
+    background-color: #ff4079;
+
+}
+
+.bar4 {
+    width: 70px;
+    height: 17px;
+    border: 2px solid #ffffff;
+    margin: 6px;
+    cursor: pointer;
+    transition: .5s;
+    border-radius: 10px;
+}
+
+.bar4:hover {
+    background-color: #eecb87;
+
+}
+
+.bar2 {
+    width: 70px;
+    height: 17px;
+    border: 2px solid #ffffff;
+    margin: 6px;
+    cursor: pointer;
+    transition: .5s;
+    border-radius: 10px;
+}
+
+.bar2:hover {
+    background-color: #1e8d0d;
+
+}
+
+.bar3 {
+    width: 70px;
+    height: 17px;
+    border: 2px solid #ffffff;
+    margin: 6px;
+    cursor: pointer;
+    transition: .5s;
+    border-radius: 10px;
+}
+
+.bar3:hover {
+    background-color: #E68D5E;
+
+}
+
+.bar5 {
+    width: 70px;
+    height: 17px;
+    border: 2px solid #ffffff;
+    margin: 6px;
+    cursor: pointer;
+    transition: .5s;
+    border-radius: 10px;
+}
+
+.bar5:hover {
+    background: linear-gradient(to right, #471900, #ffb085);
+
+}
+
+input {
+    display: none;
+}
+
+.slides {
+    display: flex;
+    width: 500%;
+    height: 100%;
+}
+
+.slide {
+    width: 20%;
+    transition: 1s;
+}
+
+.content img {
+    width: 100%;
+    height: 100%;
+    z-index: 19;
+}
+
+#slide1:checked~.s1 {
+    margin-left: 0;
+
+}
+
+#slide2:checked~.s1 {
+    margin-left: -20%;
+}
+
+#slide3:checked~.s1 {
+    margin-left: -40%;
+}
+
+#slide4:checked~.s1 {
+    margin-left: -60%;
+}
+
+#slide5:checked~.s1 {
+    margin-left: -80%;
+
+}
+
+
+.sobre_nos p {
+    text-align: center;
+    height: 100px;
+    font-size: 30px;
+    font-family: font;
+    color: #ffffffdf;
+}
+
+.sobre_nos h1 {
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 70px;
+    font-weight: bold;
+    font-family: font;
+    text-shadow: #eb3e9756 0.1em 0.1em 0.70px;
+}
+
+
+.sobre_nos {
+    background-color: #FAACC4;
+    height: 480px;
+}
+
+#slider_fundo{
+    margin-top: -16px;
+}
+
+.choco img{
+    width: 100%;
+    height: 300px;
+}
+
+.sabores h1{
+    text-align: center;
+    font-family: font;
+    font-size: 70px;
+    color: #e96696;
+    text-shadow: #ffffff84 0.1em 0.1em 0.70px ;
+}
+
+.first_img img{
+    width: 100%;
+}
+
+.second_img img{
+    width: 100%;
+}
+
+.boneca img{
+    height: 700px;
+    display: flex;
+    float: left ;
+}
+
+.loc h1{
+    text-align: center;
+    font-family: font;
+    color: #e26b97;
+    font-size: 40px;
+}
+
+.maps{
+    display: flex;
+    justify-content: center;
+}
+
+.txt-social h1{
+    text-align: center;
+    color: #e26b97;
+    font-family: font;
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+.social{
+    display: flex ;
+    margin-left: 900px;
+}
+
+.social-insta:hover{
+    transform: scale(1.20);
+}
+.social-whats:hover{
+    transform: scale(1.20);
+}
+
+
+
+footer img{
+    width: 100%;
+    height:100px;
+}
+
+.txt{
+    text-decoration: none;
+    text-align: center;
+    margin-top: -60px;
+    display: flex;
+    justify-content: space-around;
+    font-family: font;
+}
+
+.txt a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+}
+
+.copy{
+    background-color: #fff;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    font-size: 10px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #757575;
+}
+
+.geladinho img{
+    position: absolute;
+    width: auto;
+    height: 230px;
+    z-index: 1;
+    float: right;
+    margin-top: -50px;
+    margin-left: 920px;
+}
+
+
+
+
